@@ -2,7 +2,8 @@ name: Cek Kode HTML (Windows)
 
 on:
   push:
-    - main
+    branches:
+      - main
   pull_request:
 
 jobs:
